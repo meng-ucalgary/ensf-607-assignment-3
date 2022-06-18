@@ -1,52 +1,89 @@
-# Lab Assignment 3
+# ENSF-607 Assignment 3
 
+An assignment on updating the Course Registration System done in [Assignment 1](https://github.com/meng-ucalgary/ensf-607-assignment-1) to include a GUI with MVC architecture.
 ENSF 607 - Fall 2021
 
+## Folder Structure
 
-## Due Dates
+- [src](src): source code
+- [lib](lib): setup data
+- [screenshots](screenshots): GUI screenshots
+- [uml](uml): UML diagrams and their source code
 
-Submission before 11:59 PM on Friday, October 8
+## How to build and run
 
-Demonstration on Friday, October 8
+1. JDK version 1.7 or above is required to build and run this program.
 
+2. Clone the repository on your machine, or download the zip file
 
-## Objectives
+3. Run the [run.sh](run.sh) or [run.cmd](run.cmd) file to run the program
 
-In Lab Assignment 1 you were tasked by creating a student registration system based on the UML diagram given to you in the lecture material. In this assignment, you will modify the design of your application to MVC. Your final submission should have the same functionality of the application you developed in lab 1. However, for this assignment you must have a GUI instead of a console-based application.
-
-The deliverables for this assignment include:
-
-- Modified UML diagram(s) to show case your design. You may choose to have more than one UML diagram to show a meaningful high-level and low-level view of the system. UML package diagram and class diagram are appropriate to use.
-
-- Your Java application which must be delivered in 3 packages:
-   - Model
-   - View
-   - Controller
-
-- Students will demo their project to their TA **during the lab on Friday October 8th**
-
-- Students must submit their lab to the Git repository by **11:59 on Monday October 8th**
-
-
-## Program Structure
-
-+ Launch the program by using `run.cmd` or `run.sh` based on your machine
-
-+ Source code present in the directory [src](src)
-
-+ Resource files present in the directory [lib](lib)
-
-+ GUI screenshots present in the directory [screenshots](screenshots)
-
-+ UML diagrams and their source code present in the directory [uml](uml)
-
+4. Then follow the onscreen instructions
 
 ## UML Diagrams
 
 1. UML diagram - high level
-   
+
    ![Package CRS](uml/package_crs.png)
 
 2. UML diagram - detailed
-   
+
    ![CLass CRS](uml/class_crs.png)
+
+## Screenshots
+
+Student entering his/her details
+
+![0.1-Student-Enter.png](screenshots/0.1-Student-Enter.png)
+
+Program menu options
+
+![0.2-Menu-Options.png](screenshots/0.2-Menu-Options.png)
+
+Menu option 1: no search results
+
+![1.1-No-Search-Results.png](screenshots/1.1-No-Search-Results.png)
+
+Menu option 1: search produced some results
+
+![1.2-Search-Results.png](screenshots/1.2-Search-Results.png)
+
+Menu option 2: couldn't register as all registrations are full in this offering
+
+![2.1-No-Space-For-Registration.png](screenshots/2.1-No-Space-For-Registration.png)
+
+Menu option 2: couldn't register as pre-requisites are not met
+
+![2.2-Pre-Requisites-Not-Met.png](screenshots/2.2-Pre-Requisites-Not-Met.png)
+
+Menu option 2: successfully registered
+
+![2.3-Successful-Registration.png](screenshots/2.3-Successful-Registration.png)
+
+Menu option 2: successfully registered but a warning is issued
+
+![2.4-Successful-Registration-With-Warning.png](screenshots/2.4-Successful-Registration-With-Warning.png)
+
+Menu option 2: cannot register for more than 6 courses
+
+![2.5-Maxed-Out-Registration.png](screenshots/2.5-Maxed-Out-Registration.png)
+
+Menu option 3: cannot de-register as registered courses has depedency
+
+![3.1-Unsuccessful-De-Registration.png](screenshots/3.1-Unsuccessful-De-Registration.png)
+
+Menu option 3: successfully de-registered
+
+![3.2-Successful-De-Registration.png](screenshots/3.2-Successful-De-Registration.png)
+
+Menu option 4: view the entire course catalog
+
+![4-View-Catalog.png](screenshots/4-View-Catalog.png)
+
+Menu option 5: show all the registered courses for the current student
+
+![5-All-Registered-Courses.png](screenshots/5-All-Registered-Courses.png)
+
+Menu option 6: exit the program
+
+![6-Exit.png](screenshots/6-Exit.png)
