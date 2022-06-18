@@ -1,7 +1,6 @@
 # ENSF-607 Assignment 3
 
 An assignment on updating the Course Registration System done in [Assignment 1](https://github.com/meng-ucalgary/ensf-607-assignment-1) to include a GUI with MVC architecture.
-ENSF 607 - Fall 2021
 
 ## Folder Structure
 
